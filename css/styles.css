@@ -291,8 +291,8 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel:hover,
-.footer-mail:hover {
+.footer-tel-link:hover,
+.footer-mail-link:hover {
   color: var(--accent-color);
 }
 /* footer end */
