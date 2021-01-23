@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Document</title>
+    <title>Портфолио</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous"/>
@@ -16,23 +16,23 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header-container">
             <!--menu nav-->
-        <nav>
-            <a class="logo-top" href="./index.html">
+        <nav class="nav-list">
+            <a class="logo-top link-effects" href="./index.html">
                 <span class="web">Web</span>Studio
             </a>
             <ul class="navigation">
                 <li class="nav-list">
-                    <a class="nav-link" href="./index.html">Студия
+                    <a class="nav-link link-effects" href="./index.html">Студия
                     </a>
                 </li>
                 <li class="nav-list" >
-                    <a class="nav-link nav-link-current" href="./portfolio.html">Портфолио
+                    <a class="nav-link nav-link-current link-effects" href="./portfolio.html">Портфолио
                     </a>
                 </li>
                 <li class="nav-list">
-                    <a class="nav-link" href="#" >Контакты
+                    <a class="nav-link link-effects" href="#" >Контакты
                     </a>
                 </li>
             </ul>
@@ -41,10 +41,10 @@
         <!-- header contacts -->
         <ul class="contacts">
             <li class="contact-list">
-                <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contact-link link-effects" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="contact-list">
-                <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contact-link link-effects" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
         </div>
@@ -52,10 +52,10 @@
     </header>
     <main>
         <!-- section portfolio-->
-        <section>
-            <div class="portfolio">
+        <section class="section-portfolio">
+            <div class="portfolio-container">
                 <h1 hidden>Портфолио</h1>
-                <ul class="filters" >
+                <ul class="filters">
                     <li class="filter-item">
                         <button type="button">Все</button>
                     </li>
@@ -75,66 +75,84 @@
                 <h2 hidden>Наши проэкты</h2>
                 <ul class="projects">
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/technocriak.jpg" alt= "Технокряк"/>
-                            <h3 class="project-title">Технокряк</h3>
-                            <p class="project-dicrip">Веб-сайт</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Технокряк</h3>
+                                <p class="project-description">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/neworlean.jpg" alt="Постер New Orlean vs Golden Star"/>
-                            <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
-                            <p class="project-dicrip">Дизайн</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
+                                <p class="project-description">Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/restoraunt.jpg" alt="Ресторан Seafood"/>
-                            <h3 class="project-title">Ресторан Seafood</h3>
-                            <p class="project-dicrip">Приложение</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Ресторан Seafood</h3>
+                                <p class="project-description">Приложение</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/projectprime.jpg" alt="Проект Prime"/>
-                            <h3 class="project-title">Проект Prime</h3>
-                            <p class="project-dicrip">Маркетинг</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Проект Prime</h3>
+                                <p class="project-description">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/projectboxes.jpg" alt="Проект Boxes"/>
-                            <h3 class="project-title">Проект Boxes</h3>
-                            <p class="project-dicrip">Приложение</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Проект Boxes</h3>
+                                <p class="project-description">Приложение</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/inspiration.jpg" alt="Inspiration has no Borders"/>
-                            <h3 class="project-title">Inspiration has no Borders</h3>
-                            <p class="project-dicrip">Веб-сайт</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Inspiration has no Borders</h3>
+                                <p class="project-description">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/limitededition.jpg" alt="Издание Limited Edition"/>
-                            <h3 class="project-title">Издание Limited Edition</h3>
-                            <p class="project-dicrip">Дизайн</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Издание Limited Edition</h3>
+                                <p class="project-description">Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/projectlab.jpg" alt="Проект LAB"/>
-                            <h3 class="project-title">Проект LAB</h3>
-                            <p class="project-dicrip">Маркетинг</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Проект LAB</h3>
+                                <p class="project-description">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     <li class="project-list">
-                        <a class="project-link" href="#">
+                        <a class="link-effects" href="#">
                             <img src="./imagesportfolio/growingbusiness.jpg" alt="Growing Business"/>
-                            <h3 class="project-title">Growing Business</h3>
-                            <p class="project-dicrip">Приложение</p>
+                            <div class="project-text">
+                                <h3 class="project-title">Growing Business</h3>
+                                <p class="project-description">Приложение</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -143,20 +161,19 @@
         <!-- section portfolio end -->
     </main>
     <!-- footer -->
-    <footer class="footer-content">
+    <footer class="footer">
         <div class="footer-container">
-            <a class="logo-footer" href="./index.html">
+            <a class="logo-footer link-effects" href="./index.html">
                 <span class="web">Web</span>Studio</a>
-                <!-- Адресс в подвале  -->
                 <address class="footer-address">
                     <ul>
                         <li class="city-address"> г. Киев, пр-т Леси Украинки, 26
-                            </li>
+                        </li>
                         <li class="footer-mail">
-                            <a class="footer-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a class="footer-mail-link link-effects" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
                         <li class="footer-tel">
-                            <a class="footer-tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            <a class="footer-tel-link link-effects" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
                 </address>
