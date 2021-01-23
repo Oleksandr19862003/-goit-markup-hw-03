@@ -59,8 +59,6 @@ img {
   display: flex;
   font-weight: 500;
 }
-.nav-list {
-}
 .nav-list:not(:first-child) {
   margin-left: 50px;
 }
