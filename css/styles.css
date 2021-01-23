@@ -7,6 +7,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  outline: 1px solid red;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -29,7 +30,8 @@ img {
 }
 .header-container {
   margin-left: 215px;
-  width: 1200px;
+  margin-right: 215px;
+  width: 1170px;
   display: flex;
   letter-spacing: 0.02em;
   border: 1px solid #ececec;
@@ -93,7 +95,7 @@ img {
   color: var(--accent-color);
 }
 .contact-list:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 /* header contacts */
 
@@ -103,12 +105,12 @@ img {
   background: #2f303a;
 }
 .container-hero {
-  width: 1200px;
+  width: 696px;
   padding: 0px 15px;
-  margin-left: 452px;
+  margin-left: 435px;
+  margin-right: auto;
 }
 .main-description {
-  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -119,7 +121,7 @@ img {
 }
 .order-service {
   margin-top: 30px;
-  margin-left: 248px;
+  margin-left: 236px;
   padding: 10px 32px;
   width: 200px;
   font-weight: 700;
@@ -189,7 +191,7 @@ img {
 .what-we-do-title {
   margin-left: 397px;
   margin-bottom: 50px;
-  min-width: 377px;
+  width: 378px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -219,7 +221,7 @@ img {
 .team-title {
   margin-bottom: 50px;
   margin-left: 452px;
-  min-width: 266px;
+  width: 266px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -227,7 +229,6 @@ img {
 }
 .team {
   padding-bottom: 94px;
-  width: 1170px;
   height: 368px;
   display: flex;
   flex-wrap: nowrap;
@@ -236,8 +237,6 @@ img {
   text-align: center;
 }
 .team-members {
-  padding-top: 0px;
-  text-align: center;
   color: var(--title-text-color);
 }
 .team-members:not(:last-child) {
@@ -275,13 +274,13 @@ img {
   padding: 0px 15px;
   margin-left: 215px;
   margin-right: auto;
-
   width: 1200px;
   display: inline-block;
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  width: 146px;
   font-size: 26px;
   line-height: 1.153;
   letter-spacing: 0.03em;
@@ -323,7 +322,7 @@ img {
   margin-right: auto;
 }
 .filters {
-  margin-bottom: 50px;
+  margin-bottom: 44px;
   margin-left: 280px;
   width: 612px;
   display: flex;
