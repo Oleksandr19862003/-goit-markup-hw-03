@@ -186,13 +186,12 @@ img {
   width: 1200px;
 }
 .what-we-do-title {
-  margin-left: 397px;
   margin-bottom: 50px;
-  width: 378px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 .what-we-do {
@@ -200,7 +199,7 @@ img {
   text-align: center;
 }
 .what-we-do-items {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 /* section what we do end */
 
@@ -211,16 +210,13 @@ img {
 }
 .team-title {
   margin-bottom: 50px;
-  margin-left: 452px;
-  width: 266px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 .team {
-  padding-bottom: 94px;
-  height: 368px;
   display: flex;
   flex-wrap: nowrap;
   font-size: 16px;
@@ -307,7 +303,6 @@ img {
   margin-left: 280px;
   width: 612px;
   display: flex;
-  border-radius: 4px;
 }
 .filter-item button {
   padding: 6px 22px;
