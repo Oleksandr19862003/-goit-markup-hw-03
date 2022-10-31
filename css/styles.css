@@ -4,43 +4,53 @@
   --common-lite-color: #ffffff;
   --accent-color: #2196f3;
 }
+
 * {
   margin: 0px;
   padding: 0px;
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   background: var(--common-lite-color);
 }
+
 ul {
   list-style: none;
 }
+
 img {
   display: block;
 }
+
 .link-effects {
   text-decoration: none;
   display: block;
   margin: 0px;
   padding: 0px;
 }
+
 .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
+
 .header .container {
   display: flex;
 }
+
 .container {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
 }
+
 /* header nav menu */
 .nav-list {
   display: flex;
 }
+
 .logo-top {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -51,17 +61,21 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .web {
   color: var(--accent-color);
 }
+
 .navigation {
   margin-left: 93px;
   display: flex;
   font-weight: 500;
 }
+
 .nav-list:not(:first-child) {
   margin-left: 50px;
 }
+
 .nav-link {
   padding: 32px 0px;
   font-weight: inherit;
@@ -69,11 +83,13 @@ img {
   line-height: 1.142;
   color: var(--title-text-color);
 }
+
 .nav-link-current,
 .nav-link:hover,
 .nav-link:active {
   color: var(--accent-color);
 }
+
 /* header nav menu end */
 
 /* header contacts */
@@ -81,8 +97,9 @@ img {
   margin-left: auto;
   display: flex;
 }
-.contact-list {
-}
+
+.contact-list {}
+
 .contact-link {
   padding: 32px 0px;
   font-weight: 500;
@@ -91,12 +108,15 @@ img {
   color: var(--secondary-text-color);
   display: flex;
 }
+
 .contact-link:hover {
   color: var(--accent-color);
 }
+
 .contact-list:not(:first-child) {
   margin-left: 40px;
 }
+
 /* header contacts */
 
 /* section hero */
@@ -109,6 +129,7 @@ img {
   display: block;
   text-align: center;
 }
+
 .main-description {
   margin-bottom: 30px;
   font-weight: 900;
@@ -119,6 +140,7 @@ img {
   text-transform: uppercase;
   color: var(--common-lite-color);
 }
+
 .order-service {
   margin-left: auto;
   margin-right: auto;
@@ -131,22 +153,26 @@ img {
   color: var(--title-text-color);
   cursor: pointer;
 }
+
 .order-service:active,
 .order-service:hover {
   background: var(--accent-color);
   color: var(--common-lite-color);
   box-shadow: 0px 4px 4px rgba(61, 11, 11, 0.15);
 }
+
 /* section hero end */
 
 /* section features */
 .section-features {
   padding: 94px 0px;
 }
+
 .features-title {
   text-align: center;
   visibility: hidden;
 }
+
 .features {
   display: flex;
   flex-direction: row;
@@ -154,15 +180,18 @@ img {
   line-height: 1.714;
   color: var(--common-lite-color);
 }
+
 .details:last-child {
   margin-right: 0;
 }
+
 .details {
   margin-right: 30px;
   width: 270px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 .details-items {
   width: 270px;
   font-style: normal;
@@ -173,22 +202,26 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 .details-description {
   margin-top: 10px;
   width: 270px;
 }
+
 /* section features end */
 
 /* section what we do */
 .section-what-we-do {
   padding-bottom: 94px;
 }
+
 .what-we-do-container {
   margin-left: auto;
   margin-right: auto;
   padding: 0px 15px;
   width: 1200px;
 }
+
 .what-we-do-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -198,13 +231,16 @@ img {
   text-align: center;
   color: var(--title-text-color);
 }
+
 .what-we-do {
   display: flex;
   text-align: center;
 }
+
 .what-we-do-items {
   margin-right: 30px;
 }
+
 /* section what we do end */
 
 /* section team */
@@ -212,6 +248,7 @@ img {
   background-color: #f5f4fa;
   padding: 94px 0px;
 }
+
 .team-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -220,6 +257,7 @@ img {
   text-align: center;
   color: var(--title-text-color);
 }
+
 .team {
   display: flex;
   flex-wrap: nowrap;
@@ -227,15 +265,18 @@ img {
   line-height: 1.25;
   text-align: center;
 }
+
 .team-members {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   color: var(--title-text-color);
 }
+
 .team-members:not(:last-child) {
   margin-right: 30px;
 }
+
 .team-member-data {
   padding: 30px 32px;
   flex-basis: calc(100% / 3 - 20px);
@@ -244,6 +285,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--common-lite-color);
 }
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -251,12 +293,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-member-position {
   margin-top: 10px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 /* section team end */
 
 /* footer */
@@ -264,6 +308,7 @@ img {
   background: #2f303a;
   padding: 60px 0px;
 }
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -273,6 +318,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--common-lite-color);
 }
+
 .footer-address {
   padding-top: 20px;
   font-size: 14px;
@@ -281,10 +327,12 @@ img {
   font-style: inherit;
   color: var(--common-lite-color);
 }
+
 .footer-mail,
 .city-address {
   margin-bottom: 10px;
 }
+
 .footer-tel-link,
 .footer-mail-link {
   font-size: inherit;
@@ -292,22 +340,26 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-tel-link:hover,
 .footer-mail-link:hover {
   color: var(--accent-color);
 }
+
 /* footer end */
 
 /* section portfolio */
 .section-portfolio {
   padding: 94px 0px;
 }
+
 .filters {
   margin-bottom: 44px;
   margin-left: 280px;
   width: 612px;
   display: flex;
 }
+
 .filter-item button {
   padding: 6px 22px;
   font-weight: 500;
@@ -322,9 +374,11 @@ img {
   cursor: pointer;
   outline: none;
 }
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .filter-item:active button,
 .filter-item:hover button {
   border: none;
@@ -334,12 +388,14 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
 .projects {
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
+
 .project-list {
   margin-bottom: 30px;
   margin-left: 30px;
@@ -348,15 +404,19 @@ img {
   background: var(--common-lite-color);
   border: 1px solid #eeeeee;
 }
+
 .project-list:nth-child(3n + 1) {
   margin-left: 0px;
 }
+
 .project-list:nth-child(n + 7) {
   margin-bottom: 0px;
 }
+
 .project-text {
   padding: 20px 24px;
 }
+
 .project-title {
   margin-bottom: 4px;
   width: 322px;
@@ -366,6 +426,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
 .project-description {
   width: 322px;
   font-size: 16px;
@@ -373,4 +434,5 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 /* section portfolio end*/
